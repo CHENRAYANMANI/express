@@ -1,0 +1,4 @@
+const city_id =document.getElementById('city_id').value
+const cuisine_id=document.getElementById('cuisine_id').value
+const lowCost =document.getElementById('lowCost').value
+const sort =document.getElementById('sort').value

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter application</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">e!</div>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Create an account</a></li>
+        </ul>
+    </nav>
+    <h1>Breakfast Places in Mumbai</h1>
+    <div class="row">
+        <div class="filters">
+            <h5>Filters</h5>
+            <label for="loc">Select Location</label><br>
+            <input type="search" placeholder="Select Location" list="loc">
+            <datalist id="loc">
+                <option value="Bengalore">Bengalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Tiruppur">Tiruppur</option>
+                <option value="Thenkasi">Thenkasi</option>
+            </datalist><br>
+            <br>
+            <h5>Cuisine</h5>
+            <input type="checkbox" name="food_type"><label>North Indian</label><br>
+            <input type="checkbox" name="food_type"><label>South Indian</label><br>
+            <input type="checkbox" name="food_type"><label>Chinese</label><br>
+            <input type="checkbox" name="food_type"><label>Fast food</label><br>
+            <input type="checkbox" name="food_type"><label>Street food</label><br>
+            <br>
+            <h5>Cost for Two</h5>
+            <input type="radio" name="cost_of_food" id="cost"><label>Less than 500</label><br>
+            <input type="radio" name="cost_of_food" id="cost"><label>500 to 1000</label><br>
+            <input type="radio" name="cost_of_food" id="cost"><label>1000 to 1500 </label><br>
+            <input type="radio" name="cost_of_food" id="cost"><label>1500 to 2000 </label><br>
+            <input type="radio" name="cost_of_food" id="cost"><label>2000+ </label><br>
+            <br>
+            <h5>Sort</h5>
+            <input type="radio" name="prices" id="price"><label>Price low to high </label><br>
+            <input type="radio" name="prices" id="price"><label>Price high to low</label><br>
+        </div>
+        <div class="container">
+            <div class="item item1" >
+                 <img src="./pexels-chan-walrus-958545.jpg" alt="">
+                    <h3>The Big Chill Cakery</h3>
+                    <h4>Fort</h4>
+                    <p>Shop 1, plot D,Sameuddhi complex, Chinchal...</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <span>CUISINES</span> <span><b>Backery</b></span><br>
+                    <span>COST FOR TWO</span><strong>700</strong>
+            </div><br>
+            <div class="item item2">
+                    <img src="./pexels-chan-walrus-958545.jpg" alt="">
+                    <h3>The Big Chill Cakery</h3>
+                    <h4>Fort</h4>
+                    <p>Shop 1, plot D,Sameuddhi complex, Chinchal...</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <span>CUISINES</span> <span><b>Backery</b></span><br>
+                    <span>COST FOR TWO</span><strong>700</strong>
+            </div>
+            <br>
+            <div class="links">
+                <a class="link" href="#"><</a>
+                <a class="link" href="#">1</a>
+                <a class="link" href="#">2</a>
+                <a class="link" href="#">3</a>
+                <a class="link" href="#">4</a>
+                <a class="link" href="#">5</a>
+                <a class="link" href="#">>...</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
